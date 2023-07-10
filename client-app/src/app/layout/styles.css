@@ -1,0 +1,180 @@
+body {
+    background-color: rgb(255, 192, 87) !important;
+}
+
+.ui.inverted.vertical.left.fixed.menu {
+    background-color: rgb(99, 131, 235) !important;
+}
+
+.pol {
+    background-color: rgb(43, 67, 143) !important;
+}
+
+.masterhead {
+    display: flex;
+    align-items: center;
+    background-color: rgb(43, 67, 143) !important;
+    height: 100vh;
+}
+
+.masterlogo {
+    width: 200px;
+    height: auto;
+}
+
+.centerhead {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 80px;
+    height: 40%;
+}
+
+.masterhead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+    margin-left: 0.5em;
+}
+
+.masterhead h1.ui.header {
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.masterhead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+}
+
+.formerB {
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    height: 30px;
+    transition: height 1s;
+    -webkit-transition: height 1s;
+}
+
+.sidebar.menu > a.active.item {
+    background: rgb(43, 67, 143) !important;
+    color: #fff !important;
+    
+}
+
+.sidebar.menu > a.item:hover {
+    background: rgb(64, 95, 194) !important;
+}
+
+.ui.dashboardcard {
+    margin-left: 3em;
+    background-color: white;
+    border-radius: 30px;
+    padding: 2em;
+}
+
+.ui.big.circular.label {
+    transition: all 0.2s ease-in-out !important;
+}
+
+.ui.big.circular.label:hover {
+    transform: scale(1.1) !important;
+    cursor: pointer;
+}
+
+.payu {
+    background-color: rgb(239, 247, 221) !important;
+    transition: all 0.2s ease-in-out !important;
+    cursor: default;
+}
+
+.payu:hover {
+    background-color: rgb(153, 83, 107) !important;
+    transform: scale(1.1) !important;
+    cursor: pointer;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+
+  .menuButton {
+    background-color: transparent !important;
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 999;
+    border: none !important;
+    transition: all 0.2s ease-in-out !important;
+  }
+
+  .menuButton:hover {
+    transform: scale(1.1) !important;
+  }
+  
+  .rotatedbars {
+    transform:  rotate(90deg) !important;
+    transform-origin: center center !important;
+    transition: all 0.2s ease-in-out !important;
+  }
+
+  .rotatedbars:hover {
+    transform: scale(1.1) !important;
+  }
+
+  .trele {
+    padding: 0px !important;
+    margin: 0px !important
+  }
+
+  .grade-button{
+    color:rgb(109, 107, 107) !important;
+    border-radius: 20px !important;
+    background-color: transparent !important;
+    transition: all 0.2s ease-in-out !important;
+  }
+
+  .grade-button:hover {
+    color:rgb(255, 255, 255) !important;
+    background-color: rgb(99, 131, 235) !important;
+  }
+
+  .edit-button{
+    width: 100%;
+    color:rgb(255, 255, 255) !important;
+    border-radius: 20px !important;
+    background-color: rgb(174, 193, 255) !important;
+    transition: all 0.2s ease-in-out !important;
+  }
+
+  .edit-button:hover {
+    color:rgb(255, 255, 255) !important;
+    background-color: rgb(99, 131, 235) !important;
+  }
+
+  .remove-button{
+    width: 100%;
+    color:rgb(255, 255, 255) !important;
+    border-radius: 20px !important;
+    background-color: rgb(255, 174, 181) !important;
+    transition: all 0.2s ease-in-out !important;
+  }
+
+  .remove-button:hover {
+    color:rgb(255, 255, 255) !important;
+    background-color: rgb(235, 99, 99) !important;
+  }
+
+  .confirm-button{
+    width: 100%;
+    color:rgb(255, 255, 255) !important;
+    border-radius: 20px !important;
+    background-color: rgb(174, 255, 208) !important;
+    transition: all 0.2s ease-in-out !important;
+  }
+
+  .confirm-button:hover {
+    color:rgb(255, 255, 255) !important;
+    background-color: rgb(99, 235, 140) !important;
+  }
